@@ -1,0 +1,54 @@
+<form style="margin: 50px" class="register-form m-4" [formGroup]="register" (ngSubmit)="onRegister()">
+  <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+          <mat-form-field class="example-full-width">
+              <mat-label>region</mat-label>
+              <input matInput formControlName="region" >
+             
+          </mat-form-field>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+          <mat-form-field class="example-full-width">
+              <mat-label>project_name </mat-label>
+              <input matInput formControlName="projectName">
+          </mat-form-field>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+        <mat-form-field class="example-full-width">
+            <mat-label>vpc_cidr </mat-label>
+            <input matInput formControlName="vpcCidr">
+        </mat-form-field>
+    </div>
+    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+      <mat-form-field class="example-full-width">
+          <mat-label>ebs_size </mat-label>
+          <input matInput formControlName="ebsSize">
+      </mat-form-field>
+  </div>
+  <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+    <mat-form-field class="example-full-width">
+        <mat-label>instance_type </mat-label>
+        <input matInput formControlName="instanceType">
+    </mat-form-field>
+</div>
+<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+  <mat-form-field class="example-full-width">
+      <mat-label>max_size </mat-label>
+      <input matInput formControlName="maxSize">
+  </mat-form-field>
+</div>
+<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+  <mat-form-field class="example-full-width">
+      <mat-label>min_size </mat-label>
+      <input matInput formControlName="minSize">
+  </mat-form-field>
+</div>
+<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mb-2">
+  <mat-form-field class="example-full-width">
+      <mat-label>desired_capacity </mat-label>
+      <input matInput formControlName="desiredCapacity">
+  </mat-form-field>
+</div>
+  </div>
+  <input type="submit" value="Confirm" mat-button color="primary" class="btn">
+</form>

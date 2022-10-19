@@ -1,12 +1,15 @@
 <mat-card class="example-card">
  
-    <img mat-card-image src="../../assets/back.jpg" alt="Photo of a Shiba Inu">
+    <img mat-card-image src="../../assets/Architecture.png" alt="Photo of a Shiba Inu">
     <mat-card-content>
       <p>Deploy High Available infrastructure using Terraform module and you can customize parameters according to your needs
       </p>
     </mat-card-content>
     <mat-card-actions>
-      <button mat-button class="more">More</button>
+      <button mat-button class="more" [routerLink]="'/modal'">Edit</button>
       <button mat-button class="apply" (click)="DeployTfFile()">Apply</button>
     </mat-card-actions>
   </mat-card>
+
+
+  

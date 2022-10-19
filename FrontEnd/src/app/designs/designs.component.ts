@@ -40,7 +40,7 @@ export class DesignsComponent implements OnInit {
       console.log(data)
     })
   }
-  DeployTfFile(){
+    DeployTfFile(){
     this._GenerateTfService.deployTf()
     .subscribe(data=>{
       console.log(data)

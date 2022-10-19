@@ -17,12 +17,18 @@ import {MatListModule} from '@angular/material/list';
 import { FormsModule } from '@angular/forms';
 import { DesignsComponent } from './designs/designs.component';
 import { AccountsComponent } from './accounts/accounts.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import { ModalComponent } from './modal/modal.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
     DesignsComponent,
-    AccountsComponent
+    AccountsComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
@@ -32,11 +38,15 @@ import { AccountsComponent } from './accounts/accounts.component';
     MatSelectModule,
     MatToolbarModule,
     MatSidenavModule,
+    MatDialogModule,
     MatIconModule,
     MatListModule,
+    MatInputModule,
     MatCardModule,
+    MatFormFieldModule,
     FormsModule,
     MatButtonModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule
   ],
   providers: [],

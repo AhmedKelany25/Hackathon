@@ -18,4 +18,7 @@ export class GenerateTfService {
   deployTf():Observable<any>{
     return this.http.get('http://localhost:3000/api/deployTf')
   }
+  edittfFile(tf){
+    return this.http.post<any>('http://localhost:3000/api/editFile', tf)
+  }
 }

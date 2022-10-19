@@ -56,3 +56,6 @@ mat-sidenav a{
     left: 50%;
     transform: translate(-50%,-50%);
 }
+.icon{
+    margin-right: 7px;
+}
