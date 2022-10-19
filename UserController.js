@@ -101,7 +101,7 @@ tfg.output('subnets', {
 
 // Write the configuration into a terraform.tf file
 
-            const outputDir = path.join('outputtt', configs.env, 'subnets');
+            const outputDir = path.join('output', configs.env, 'subnets');
             tfg.write({ dir: outputDir, format: true });
 
 /*end here */

@@ -1,0 +1,58 @@
+nav{
+    background-color: rgb(160, 34, 34);
+    height: 60px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+
+}
+.header{
+    text-align: center;
+    align-self: center;
+    padding-top: 15px;
+    color: rgb(234, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+}
+button{
+    margin-left: 5px;
+}
+.navbbar {
+    background-color:  hwb(248deg 21% 39%);
+    color: #fff;
+}
+
+mat-sidenav {
+   background-color:  hwb(248deg 21% 39%);
+   width: 15%;
+   color: #fff !important;
+   text-align: center !important;
+
+}
+
+mat-sidenav a{
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    align-self: center;
+    display: block !important;
+}
+.line{
+    
+    position: absolute;
+    width: 99%;
+    bottom: 120px;
+}
+.devops{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
